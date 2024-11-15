@@ -4,8 +4,9 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-h1, p {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+/* Change the color of the introductory text */
+h1 + p {
+    color: black;
 }
 
 .card {
